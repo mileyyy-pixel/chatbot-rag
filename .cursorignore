@@ -1,0 +1,28 @@
+# Cursor ignore file - files where AI features are disabled
+# This helps Cursor know which files to skip for AI assistance
+
+# Dependencies
+node_modules/
+.next/
+.vercel/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Vector store data
+data/vectors.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+

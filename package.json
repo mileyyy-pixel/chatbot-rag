@@ -1,0 +1,38 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "RAG Chatbot using Next.js + Vercel AI SDK + Gemini/OpenAI",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.3",
+    "@types/react-dom": "^19.2.3",
+    "ai": "^5.0.92",
+    "autoprefixer": "^10.4.22",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.553.0",
+    "mammoth": "^1.11.0",
+    "next": "^16.0.1",
+    "openai": "^6.8.1",
+    "pdf2json": "^4.0.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.1"
+  }
+}

@@ -1,0 +1,28 @@
+RAG Chatbot Documentation
+
+What is RAG?
+Retrieval-Augmented Generation (RAG) is an AI technique that combines information retrieval with generative AI. It allows AI models to access external knowledge bases and provide more accurate, context-aware responses.
+
+How RAG Works:
+1. Document Processing: Documents are split into chunks and converted into vector embeddings
+2. Storage: Embeddings are stored in a vector database for efficient similarity search
+3. Retrieval: When a user asks a question, the system finds relevant document chunks
+4. Generation: The retrieved context is passed to the LLM along with the user's question
+5. Response: The LLM generates an answer based on both the retrieved context and its training
+
+Benefits of RAG:
+- Provides up-to-date information without retraining
+- Reduces hallucinations by grounding responses in source material
+- Allows for domain-specific knowledge integration
+- Enables citation and source tracking
+
+Vector Embeddings:
+Vector embeddings are numerical representations of text that capture semantic meaning. Similar texts have similar embeddings, allowing for semantic search using cosine similarity.
+
+Common Use Cases:
+- Document Q&A systems
+- Customer support chatbots
+- Research assistants
+- Knowledge base search
+- Educational tools
+
