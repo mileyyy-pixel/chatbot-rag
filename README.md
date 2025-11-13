@@ -288,16 +288,7 @@ MIT License - feel free to use this project for your portfolio or learning!
 - [Next.js](https://nextjs.org/) for the amazing framework
 - [OpenAI](https://openai.com/) and [Google](https://ai.google.dev/) for the AI models
 
-## 📞 Support
 
-If you encounter any issues:
 
-1. Check that your API keys are set correctly
-2. Ensure Node.js 18+ is installed
-3. Check the browser console for errors
-4. Review the server logs in your terminal
-
----
-
-**Built with ❤️ for learning and winning internships! 🚀**
+**Built with ❤️ for learning and internships! 🚀**
 
